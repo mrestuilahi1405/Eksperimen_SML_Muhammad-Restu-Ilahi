@@ -20,7 +20,7 @@ jobs:
         run: pip install pandas numpy scikit-learn
 
       - name: Run Automate Preprocessing
-        run: python preprocessing/automate_Nama-siswa.py
+        run: python preprocessing/automate_Muhammad-Restu-Ilahi.py
 
       - name: Commit and Push Clean Data
         run: |
