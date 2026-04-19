@@ -2,9 +2,9 @@ name: Automated Data Preprocessing
 on:
   push:
     branches: [ main ]
-  paths: # Hanya jalan jika data atau preprocesssingnya berubah
-    - 'credit_risk_raw.csv'
-    - 'preprocessing/automate_Muhammad-Restu-Ilahi.py'
+    paths: # Hanya jalan jika data atau preprocesssingnya berubah
+      - 'credit_risk_raw.csv'
+      - 'preprocessing/automate_Muhammad-Restu-Ilahi.py'
 
   workflow_dispatch: # Manual trigger
 
