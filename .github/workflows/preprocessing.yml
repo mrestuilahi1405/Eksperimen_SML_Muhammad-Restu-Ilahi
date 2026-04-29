@@ -35,5 +35,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add preprocessing/creditrisk_preprocessing.csv
-          git commit -m "Update processed data: $(date)" || echo "No changes to commit"
+          git commit -m "Update processed credit risk data: $(date)" || echo "No changes to commit"
           git push
