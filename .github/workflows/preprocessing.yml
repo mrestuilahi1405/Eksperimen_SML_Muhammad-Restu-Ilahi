@@ -2,9 +2,10 @@ name: Automated Data Preprocessing
 on:
   push:
     branches: [ main ]
-    paths: # Hanya jalan jika data atau preprocesssingnya berubah
+    paths: # Hanya jalan jika data, preprocesssingnya, ataupu github actionsnya berubah
       - 'creditrisk_raw.csv'
       - 'preprocessing/automate_Muhammad-Restu-Ilahi.py'
+      - '.github/workflows/preprocessing.yml'
 
   workflow_dispatch: # Manual trigger
 
