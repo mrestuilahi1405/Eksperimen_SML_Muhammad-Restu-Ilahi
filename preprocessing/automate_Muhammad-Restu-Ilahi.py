@@ -48,8 +48,8 @@ def run_preprocessing(input_path, output_path):
 
 if __name__ == "__main__":
     # Path disesuaikan dengan struktur repositori GitHub
-    INPUT_FILE = "credit_risk_raw.csv" 
-    OUTPUT_FILE = "preprocessing/credit_risk_clean.csv"
+    INPUT_FILE = "creditrisk_raw.csv" 
+    OUTPUT_FILE = "preprocessing/creditrisk_preprocessing.csv"
     
     if os.path.exists(INPUT_FILE):
         run_preprocessing(INPUT_FILE, OUTPUT_FILE)
